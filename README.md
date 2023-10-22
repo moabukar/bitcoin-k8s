@@ -1,6 +1,6 @@
 # Bitcoin in K8s
 
-This is a simple example of how to run a Bitcoin node in Kubernetes.
+Running a Bitcoin node in Kubernetes.
 
 ## Prerequisites
 
