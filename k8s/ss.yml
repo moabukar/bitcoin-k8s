@@ -1,11 +1,10 @@
-# btc.stateful.set.yml
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   name: bitcoin
 spec:
   serviceName: bitcoin
-  replicas: 1 # Scale as match as you want
+  replicas: 3
   revisionHistoryLimit: 1
   selector:
     matchLabels:
