@@ -1,2 +1,14 @@
-## Bitcoin in Kubernetes
+#    Bitcoin in K8s
 
+This is a simple example of how to run a Bitcoin node in Kubernetes.
+
+## Prerequisites
+
+* A Kubernetes cluster  (e.g. [Minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/)) with at least 2 CPUs and 4GB of RAM
+
+## Setup
+
+- docker build -t bitcoin:0.25.0 .
+- kubectl create -f k8s/ss.yml
+- kubectl create -f k8s/svc.yml
+- kubectl create -f k8s/sc.yml
