@@ -1,4 +1,4 @@
-# Bitcoin in K8s
+# Bitcoin in K8s (LEARNING PURPOSES - use at your own risk)
 
 Running a Bitcoin node in Kubernetes.
 
